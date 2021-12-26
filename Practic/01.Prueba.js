@@ -57,4 +57,21 @@ function tipoSuscripcion(_suscripcion) {
     }   
 }
 
-//
+//Listas/Array
+
+function array1() {
+    console.log(suscripcionesPlatzi[0])
+}
+
+function cicloArrayWhile() {
+    let i = 0;
+
+    while (suscripcionesPlatzi.length > i) {
+        console.log(suscripcionesPlatzi[i]);
+        i++;
+    }
+}
+
+function callArray(_parametro) {
+    _parametro.forEach(element => console.log(element));
+}
