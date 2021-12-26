@@ -1,3 +1,4 @@
+//Patrimonio neto
 
 let activosClientes = [
     {nombre: 'Cesar', apellido: 'Paez', dineroAhorrado: 200, deudas: 1000},
@@ -12,7 +13,6 @@ function usuarioYSaldoCuenta(_nombre, _apellido, _dineroAhorrado, _deudas){
     const _nombreCompleto = _nombre + " " + _apellido;    
     
     console.log(_nombreCompleto);
-
     const _dineroReal = _dineroAhorrado - _deudas;
     console.log("Total patrimonio liquido " + _dineroReal);
 
@@ -20,7 +20,7 @@ function usuarioYSaldoCuenta(_nombre, _apellido, _dineroAhorrado, _deudas){
 };
 
 
-//
+//Nombres de usuarios y apodo
 
 var usuario = [
     { name: 'Juan David', lastname: 'Castri Gallego', nickname: 'Juandc' },
@@ -38,7 +38,8 @@ function userData(_name, _lastName, _nickname) {
     console.log("Mi nombre es " + completeName + ", pero prefiero que me digas " + _nickname + ".");   
 }
 
-//
+//Suscripcion
+
 const suscripcionesPlatzi = [
     {suscripcion: "Free", respuesta: "Solo puedes tomar los cursos gratis"},
     {suscripcion: "Basic", respuesta: "Puedes tomar casi todos los cursos de Platzi durante un mes"},
@@ -56,6 +57,4 @@ function tipoSuscripcion(_suscripcion) {
     }   
 }
 
-function vadidarSuscripcion(_suscripcion) {
-    
-}
+//
