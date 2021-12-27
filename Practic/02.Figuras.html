@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./02.figuras.css">
+    <title>Figuras geométricas</title>
+</head>
+<body>
+    <header>
+        <h1>Figuras geométricas</h1>
+    </header>
+
+    <div class="maincontainer">
+    <section class="calculoCuadrado">
+        <h3>Calcular el área y el perimetro de un cuadrado</h3>
+        <form action="">
+            
+            <img src="/Practic/Figuras geométicas/cuadrado.png" alt="cuadrado">
+            
+            <label for="imputCuadrado" >Lado del cuadrado.
+
+                </label>
+            <input id="imputCuadrado" type="number"> 
+            
+            
+            
+            <Button type="button" onclick="medidasCuadrado()">calcular</Button>
+        </form>
+    </section>
+    <section class="calculoTriangulo">
+        <h3>Calcular el área y el perimetro de un Triangulo <em>isoceles</em></h3>
+        <form action="">
+            
+            <img src="/Practic/Figuras geométicas/Triangle-Symbol-PNG-Image.png" alt="cuadrado">
+            
+            <label for="imputTriangulo" >Lado A, B y C.
+                </label>
+            <div>
+                <input id="imputTrianguloA" type="number" placeholder="Base"> 
+                <input id="imputTrianguloB" type="number"placeholder="Lado A"> 
+                <input id="imputTrianguloC" type="number" placeholder="Lado B"> 
+            </div>            
+            <Button type="button" onclick="medidasTriangulo()">calcular</Button>
+        </form>
+    </section>
+    </div>
+</body>
+<script src="./02.figuras.js"></script>
+</html>
