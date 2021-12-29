@@ -62,3 +62,11 @@ function medidasTriangulo() {
 console.group("triangulos");
 console.log("Los trianguloos");
 console.groupEnd();
+
+// let _area
+
+// let Resultado = _B === _C ? _area = Math.sqrt((_C * _C)-((_A / 2) * (_A / 2))) 
+//     : _area = "Error: Verifique los valores ingresados";
+
+// return _area
+// }

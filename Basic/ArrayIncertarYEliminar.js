@@ -23,6 +23,6 @@ articulos.pop()
 
 articulos.splice(2, 2)
 
-//elimnia el indicie y los elementos siguientes deacuerdo a la cantidad que se le indique
+//se ubica en el indice y se elimina el numero de elementos indicado.
 // articulos (2) { nombre: 'TV', costo: 2500 },
 // articulos (3) { nombre: 'Libro', costo: 320 },
