@@ -38,11 +38,13 @@ body{
     margin-left: auto;
     margin-right: auto;
     width: 360px;
+    justify-content: center;
+    align-items: center;
 }
 
 h3 {
     border: 1px solid white;
-    margin-top: 60px;
+    margin-top: 40px;
     border-radius: 8px;
     width: 320px;
     margin-left: auto;
@@ -53,6 +55,10 @@ img{
     border-radius: 12px;
 }
 
+.mainContainer p{
+    margin-left: auto;
+    margin-right: auto;
+}
 
 .calcularDescuento{
     display: grid;
@@ -63,6 +69,10 @@ img{
     gap: 24px;
     margin-top: 40px;
     width: 300px;
+    height: 220px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
     
 }
 
@@ -77,9 +87,6 @@ img{
         border-radius: 8px;
         font-size: large;
         font-weight: bold;
-    }
-    .calcularDescuento p{
-
     }
 
 input, select{
