@@ -36,7 +36,7 @@ function areaTriangulo(_A, _B, _C) {
     let _area;
 
     if (_B === _C) {
-        _area = Math.sqrt((_C * _C)-((_A / 2) * (_A / 2)));
+        _area = (Math.sqrt(((_C * _C)-((_A / 2) * (_A / 2)))) * _A) / 2;
         return _area;
     }else{
         _area = "Error: Verifique los valores ingresados";
@@ -45,9 +45,9 @@ function areaTriangulo(_A, _B, _C) {
 }
 
 function medidasTriangulo() {
-    const _A = document.getElementById("imputTrianguloA").value;
-    const _B = document.getElementById("imputTrianguloB").value;
-    const _C = document.getElementById("imputTrianguloC").value;    
+    const _A = Number(document.getElementById("imputTrianguloA").value);
+    const _B = Number(document.getElementById("imputTrianguloB").value);
+    const _C = Number(document.getElementById("imputTrianguloC").value); 
 
     const _perimetro = perimetroTriangulo(_A, _B, _C);
     const _area = areaTriangulo(_A, _B, _C);

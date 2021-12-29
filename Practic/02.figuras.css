@@ -25,7 +25,7 @@ h3{
     margin: 12px;
     width: 80%;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 400px 400px;
     gap: 32px;
     align-items: center;
     justify-content: center;
@@ -41,7 +41,7 @@ h3{
     border-radius: 24px;
     padding: 12px;
     box-sizing: border-box;
-    height: 510px;
+    height: 540px;
 }
     .calculoCuadrado form{
         display: flex;
@@ -61,6 +61,12 @@ h3{
 
         .calculoCuadrado button{
             color: black;
+            background-color: white;
+            border-radius: 4px;
+            font-size: larger;
+            font-weight: bold;
+            height: 40px;
+            width: 100px;
         }
 
 
@@ -77,7 +83,7 @@ h3{
     border-radius: 24px;
     padding: 12px;
     box-sizing: border-box;
-    height: 510px;
+    height: 540px;
 }
     .calculoTriangulo form{
         display: flex;
@@ -103,6 +109,10 @@ h3{
             color: black;
             background-color: white;
             border-radius: 4px;
+            font-size: larger;
+            font-weight: bold;
+            height: 40px;
+            width: 100px;
         }
 
 
