@@ -29,7 +29,24 @@ var articuloBaratos = articulos.some(function(articulo){
 //some valida la existencia de los parametros solicitados falso/verdadero.
 
 
-articulos.forEach(function(artic,ulo){
+articulos.forEach(function(articulo){
     console.log(articulo.nombre)
 });
 //forEach ejecuta la funcion indicada analiza cada elemento del array. No genera array
+
+articulos.sort(function(_a , _b) {
+    return _a - _b;
+});
+//ordena los elementos de menor a mayo numeros, tambien se puede usar para latras
+
+let _sumaArray = creditosArray(_array).reduce(
+    function (_valorAcumulado = 0, _nuevoElemento) {
+        return _valorAcumulado + _nuevoElemento;
+      }
+);//35
+
+//permite sumar los elementos de un array sin tener que usar un ciclo for
+
+_usuario.includes(` `) === false 
+
+//valida la existencia de algo en tambien aplica para una varaible

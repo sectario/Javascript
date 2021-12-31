@@ -26,3 +26,4 @@ articulos.splice(2, 2)
 //se ubica en el indice y se elimina el numero de elementos indicado.
 // articulos (2) { nombre: 'TV', costo: 2500 },
 // articulos (3) { nombre: 'Libro', costo: 320 },
+// Tambien permite almacenar los valores borrados un nuevo array
